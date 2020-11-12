@@ -1,10 +1,12 @@
 class Grades
-  def reportIn
+  def reportIn?
     true
   end
 
   def summary
     "Green, amber, red"
   end
-  
+
+  def add_each_grade(colours)
+  end
 end
